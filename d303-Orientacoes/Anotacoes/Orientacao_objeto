@@ -1,0 +1,80 @@
+Paradigma de programação: modelo de programação
+    Declarativo: o q quer/ o resultado Ex HTML
+    Imperativo: ordens de cada passo de como deve fazer
+        procedural: procedimento q o programa tem q executar
+            ex: Algoritmo:
+                    Pegue o baralho
+                    Embaralhe
+                    Pegue 2 cartas
+                    Verifique a pontuação 
+                    Enquanto a pontuaçao <21 e se o jogador quiser continuar
+                    Compre uma cartas
+                    Atualize a pontuação
+                    Se pontuação >21 perdeu
+            
+            Objeto: abstraçao de uma coisa fisica ou abstrata(ex conta bancaria)
+                Descrever objeto: caracteristicas(atributos) e comportamentps(metódos)
+                organiza o codigo
+                
+                Conceitos:
+                    classe:definicao de um objeto e o nome tem q ser o mais proximo possivel do q ela faz
+                            classe->instancia
+                            
+                            classe projeto de uma casa
+                            instancia a pessoa constroi a casa, forma fisica
+
+                            qd vc cria uma classe vc cria um novo tipo de variavel
+
+                        em um como é uma carta mas ele não tem uma carta
+
+                        class Carta(        ):
+                        c1 = carta( ) :1a
+
+                Ex Quadro
+                Caracteristicas(atributos)
+                    +tamanho
+                    +cor 
+
+                Comportamentos(metódos)
+                    +escrever 
+                    +andar
+
+                O objeto tem q ter uma responsabilidade unica no codigo
+
+                Ex Algoritmo :
+                    carta: *correcao de acordo com a definicao de modelo                       - logica
+                        Caracteristicas(atributos):
+                            + valor
+                            + naipe
+                            + rank (letra e numero)
+                            + cor *retirar
+                            + tamanho *retirar
+                        
+                    baralho:                                                                   -logica
+                        Caracteristicas(atributos):
+                            +cartas
+                        Comportamentos(metodo):
+                            +embaralhar              baralho.embaralhar()
+                            +retirar cartas
+                            +colocar carta
+
+                    jogo 21:                                                                  -logica
+                        Caracteristicas(atributos):
+                            +pontuaçao
+                            +baralho
+                        Comportamentos
+                            +jogar_rodada()
+                            +esta_encerrado()
+                
+                    Interface(traduzir para console, escrita e leitura "frontend")             - conversa com o usuario
+                        Caracteristicas(atributos):
+                           
+                        Comportamentos:
+
+                    
+
+um bom modelo tem apenas o q precisa pra funcionar
+coesao relaçao harmonica entre as coisas clareza
+acoplamento ligaçao entre as coisas?
+
+em python cada arquivo é 

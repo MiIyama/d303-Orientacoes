@@ -1,0 +1,8 @@
+Instalar linux
+    interface
+        leve - xubuntu (versao do ubuntu)
+        Professor Bruno = Fedora do  interface gnome
+
+Pip freeeze= o q tem instalado
+deactivate = desativar ambiente 
+pip install -r requirements.txt
